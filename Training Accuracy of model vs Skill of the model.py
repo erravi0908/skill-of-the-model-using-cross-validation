@@ -28,7 +28,7 @@ Created on Sun Mar 22 12:33:29 2020
 ################  First Process ###################
 import pandas as pd
 #this is a labelled data, which means each observation is classified into 0 and 1 class
-boston=pd.read_csv("O:\\AnalyticsPath\\Modules\\Decision Trees\\workspace\\labelledBoston.csv")
+boston=pd.read_csv("../input/labelledBoston.csv")
 
 print("To see shape of the data ",boston.shape)
 
